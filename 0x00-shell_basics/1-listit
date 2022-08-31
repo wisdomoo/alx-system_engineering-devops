@@ -1,2 +1,5 @@
 #!/bin/bash
-echo $(pwd $ls-l)
+for entry in pwd 
+do
+	echo "$entry"
+done
