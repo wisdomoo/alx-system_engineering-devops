@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls -l)
+for x in pwd;do echo >>"$x";done
