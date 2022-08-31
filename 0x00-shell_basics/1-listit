@@ -1,5 +1,2 @@
 #!/bin/bash
-for entry in pwd 
-do
-	echo "$entry"
-done
+echo $(ls)
