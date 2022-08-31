@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(pwd ls -l)
+echo $(pwd)
+echo $(ls -l)
