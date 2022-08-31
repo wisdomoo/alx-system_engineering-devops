@@ -1,2 +1,3 @@
-pwd:wq
+#!/bin/bash
 
+echo $(pwd)\n
