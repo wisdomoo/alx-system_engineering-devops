@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays Best School 10 times
+
+DISPLAY=1
+while [ $DISPLAY -lt 11 ]
+do
+	if [ $DISPLAY = 4 ]
+	then
+		echo "bad luck"
+	elif [ $DISPLAY = 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((DISPLAY+=1))
+done
