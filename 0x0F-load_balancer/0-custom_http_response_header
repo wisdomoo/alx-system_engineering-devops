@@ -5,7 +5,7 @@ apt-get update
 apt-get install nginx -y
 
 
-echo "Welcome to techwizzy technologies" > /var/www/html/index.html
+echo "Welcome to okwizzy technologies" > /var/www/html/index.html
 
 touch /var/www/html/custom_404.html
 echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
@@ -17,7 +17,7 @@ printf %s "server {
      index       index.html index.htm;
      add_header X-Served-By $HOSTNAME;
      location /redirect_me {
-        return 301 https://twitter.com/Monemax655;
+        return 301 https://twitter.com/okoroaforwisdo4;
     }
     error_page 404 /custom_404.html;
     location /custom_404 {
