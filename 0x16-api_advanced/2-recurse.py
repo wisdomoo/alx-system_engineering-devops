@@ -6,7 +6,7 @@ from requests import get
 def recurse(subreddit, hot_list=[], after="", count=0):
     """Queries the reddit api and returns a list of containing the titles
     of all hot articles for a given reddit."""
-    header = {"User-Agent": "0x16.api.advanced.project:mondayodoh"}
+    header = {"User-Agent": "0x16.api.advanced.project:wisdomoo"}
     params = {"after": after, "count": count}
     res = get("https://www.reddit.com/r/{}/hot/.json".format(subreddit),
               headers=header, allow_redirects=False, params=params)

@@ -7,7 +7,7 @@ def top_ten(subreddit):
     """Queries the reddit api and prints the titles of the first 10
     hot posts."""
     param = {"limit": 10}
-    header = {"User-Agent": "0x16.api.advanced.project:mondayodoh"}
+    header = {"User-Agent": "0x16.api.advanced.project:wisdomoo"}
     res = get("https://www.reddit.com/r/{}/hot/.json".format(subreddit),
               headers=header, allow_redirects=False, params=param)
     if res.status_code == 404:
