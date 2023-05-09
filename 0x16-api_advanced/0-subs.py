@@ -6,7 +6,7 @@ from requests import get
 def number_of_subscribers(subreddit):
     """Queries a reddit api and returns the number of subscribers for
     a given subredit"""
-    header = {"User-Agent": "0x16.api.advanced.project:mondayodoh"}
+    header = {"User-Agent": "0x16.api.advanced.project:wisdomoo"}
     res = get("https://www.reddit.com/r/{}/about.json".format(subreddit),
               headers=header, allow_redirects=False)
     code = res.status_code
